@@ -24,12 +24,16 @@ wheels = [
 name = "bolsadepalabras"
 version = "0.1.0"
 source = { virtual = "." }
-dependencies = [
+
+[package.dev-dependencies]
+dev = [
     { name = "ipykernel" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "ipykernel", specifier = ">=7.3.0" }]
+
+[package.metadata.requires-dev]
+dev = [{ name = "ipykernel", specifier = ">=7.3.0" }]
 
 [[package]]
 name = "cffi"

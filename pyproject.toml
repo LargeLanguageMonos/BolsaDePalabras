@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "nltk>=3.10.3",
+    "python-docx>=1.2.0",
 ]
 
 [dependency-groups]

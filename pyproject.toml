@@ -3,15 +3,24 @@ name = "bolsadepalabras"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
+    "ipykernel>=7.3.0",
     "nltk>=3.10.3",
     "pandas>=3.0.6",
     "python-docx>=1.2.0",
-    "torch>=2.14.1",
+    "torch>=2.11.0",
 ]
 
 [dependency-groups]
 dev = [
     "ipykernel>=7.3.0",
 ]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }

@@ -37,6 +37,7 @@ dependencies = [
     { name = "nltk" },
     { name = "pandas" },
     { name = "python-docx" },
+    { name = "regex" },
     { name = "torch" },
 ]
 
@@ -51,6 +52,7 @@ requires-dist = [
     { name = "nltk", specifier = ">=3.10.3" },
     { name = "pandas", specifier = ">=3.0.6" },
     { name = "python-docx", specifier = ">=1.2.0" },
+    { name = "regex", specifier = ">=2024.11.6" },
     { name = "torch", specifier = ">=2.11.0", index = "https://download.pytorch.org/whl/cu128" },
 ]
 

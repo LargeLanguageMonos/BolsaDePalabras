@@ -30,7 +30,7 @@ análisis de resultados
 
 ## 🧠 Conceptos principales
 
-### Bag-of-Words
+### Bag-of-Wordsf
 
 Bag-of-Words representa cada documento mediante un vector de frecuencias. Cada posición del vector corresponde a una palabra del vocabulario global y contiene el número de veces que aparece esa palabra en el documento.
 
@@ -41,9 +41,7 @@ El orden de las palabras no se conserva; únicamente se tiene en cuenta su frecu
 La similitud del coseno mide el ángulo entre dos vectores:
 
 $$
-\cos(\theta) =
-\frac{\mathbf{a}\cdot\mathbf{b}}
-{\|\mathbf{a}\|\,\|\mathbf{b}\|}
+\cos(\theta) = \frac{\mathbf{a}\cdot\mathbf{b}}{\lVert\mathbf{a}\rVert \cdot \lVert\mathbf{b}\rVert}
 $$
 
 En este proyecto:

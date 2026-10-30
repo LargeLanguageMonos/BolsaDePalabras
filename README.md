@@ -62,13 +62,9 @@ torch.nn.functional.cosine_similarity
 
 TF-IDF asigna más peso a las palabras frecuentes en un documento pero poco frecuentes en el resto del corpus:
 
-$$
-\mathrm{tfidf}(t,d)
-=
-\frac{f_{t,d}}{|d|}
-\cdot
-\ln\left(\frac{N}{n_t}\right)
-$$
+```math
+\mathrm{tfidf}(t,d) = \frac{f_{t,d}}{|d|} \cdot \ln\left(\frac{N}{n_t}\right)
+```
 
 donde:
 
